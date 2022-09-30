@@ -7,8 +7,6 @@ def calculate(min, max, step):
 
 calculate(2, 3, 4)
 
-
-import json
 def avg(data):
     employees = data["employees"]
     notManager = 0
@@ -19,8 +17,6 @@ def avg(data):
             allSalary += int(onePerson["salary"])
 
     print(allSalary/notManager)
-
-
 
 
 avg({
