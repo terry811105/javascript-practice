@@ -101,3 +101,5 @@ function funcTest(a) {
 // 因為這個funcTest是在裡面的func2就印東西了, 所以就沒有回傳東西出來了 
 funcTest(4)(5, 2);
 funcTest(5)(-1, 5);
+
+
